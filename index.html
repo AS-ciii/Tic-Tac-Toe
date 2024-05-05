@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-5e2ESR8Ycmos6g3gAKr1Jvwye8sW4U1u/cAKulfVJnkakCcMqhOudbtPnvJ+nbv7" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="gamename">Tic-<span>Tac</span>-Toe</h1>
+    <div class="Container">
+        <div class="reset">
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <h3 class="result"></h3>
+    <div class="grid">
+        <div class="box bt bl"><span class="boxtxt"></span></div>
+        <div class="box bt"><span class="boxtxt"></span></div>
+        <div class="box bt br"><span class="boxtxt"></span></div>
+        <div class="box bl"><span class="boxtxt"></span></div>
+        <div class="box"><span class="boxtxt"></span></div>
+        <div class="box br"><span class="boxtxt"></span></div>
+        <div class="box bb bl"><span class="boxtxt"></span></div>
+        <div class="box bb"><span class="boxtxt"></span></div>
+        <div class="box bb br"><span class="boxtxt"></span></div>
+    </div>
+    </div>
+    <div class="turn">
+        <div class="turnbox1 align z-in">X</div>
+        <div class="turnbox2 align z-in">O</div>
+        <div class="bg"></div>
+    </div>
+    <div class="footer">
+        <div class="social-btns">
+            <button class="social" onclick="window.location.href='//github.com/AS-ciii'"><i class="fa-brands fa-github" id="github"></i></button>
+            <button class="social" onclick="window.location.href='//www.linkedin.com/in/ajay-shenoy-p-095612171'"><i class="fa-brands fa-linkedin" id="linkedin"></i></button>
+            <button class="social" onclick="window.open('//www.instagram.com/ajay_sp18?igsh=MWwwZng0eWR1M3J6cA==', '_blank')"><i class="fa-brands fa-instagram" id="instagram"></i></button>
+        </div>
+        <span class="copyright">&copy; Ajay Shenoy</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
